@@ -28,8 +28,59 @@ h1, h2, h3, h4 {
       text-align: center;
 }
 
+.hidden {
+      display: none;
+}
+
+/* Header */
+.header {
+      margin-bottom: 30px;
+}
+
 /* Logo */
 .logo {
       font-size: 64px;
       margin-top: 50px;
+}
+
+/* Main */
+.main-wrapper {
+      position: relative;
+}
+
+.players-wrapper {
+      width: 900px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+
+}
+
+
+.player-title {
+      font-size: 42px;
+      margin-bottom: 50px;
+}
+
+.btn-roll {
+      border: none;
+      outline: none;
+      padding: 12px 30px;
+      background-color: limegreen;
+      color: white;
+      border-radius: 5px;
+      font-size: 24px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: all ease-in-out .4s;
+}
+
+.btn-roll:hover {
+      background-color: lime;
 }

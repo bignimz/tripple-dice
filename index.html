@@ -11,8 +11,29 @@
 </head>
 <body>
       <header class="header container">
-            <h1 class="logo">Tripple Dice</h1>
+            <h1 class="logo text-center">Tripple Dice</h1>
       </header>
+      <main class="main">
+            <div class="results text-center">
+                  <h2>Player One Wins!</h2>
+            </div>
+            <div class="players-wrapper">
+                  <div class="player-one">
+                        <h2 class="player-title">Player 1</h2>
+                        <div class="dice-roll hidden" id="diceRollOne">
+                              <img class="dice" src="images/dice-1.jpg">
+                        </div>
+                        <button class="btn-roll" id="roll1">Roll Dice</button>
+                  </div>
+                  <div class="player-two">
+                        <h2 class="player-title">Player 2</h2>
+                        <div class="dice-roll-1 hidden" id="diceRollTwo">
+                              <img class="dice" src="images/dice-1.jpg">
+                        </div>
+                        <button class="btn-roll" id="roll2">Roll Dice</button>
+                  </div>
+            </div>
+      </main>
       
 
       <script src="js/main.js"></script>
